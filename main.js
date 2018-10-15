@@ -1,7 +1,7 @@
 $(window).load(function() {
     // Animate loader off screen
+    $('.loading').delay(2900).fadeOut();
     $('body').removeClass("preload");
-    $('.loading').delay(3000).fadeOut();
   });
 
 var last = 0;
