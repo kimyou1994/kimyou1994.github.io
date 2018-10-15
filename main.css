@@ -6,6 +6,13 @@ body {
 	color: #061539;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 h1 {
 	font-family: 'Bree Serif', serif;
 	text-align: center;

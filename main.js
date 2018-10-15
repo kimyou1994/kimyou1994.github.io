@@ -1,5 +1,6 @@
 $(window).load(function() {
     // Animate loader off screen
+    $('body').removeClass("preload");
     $('.loading').delay(3000).fadeOut();
   });
 
