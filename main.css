@@ -45,7 +45,7 @@ h1 {
 
 .column {
 	top: 0;
-	width: 25%;
+	max-width: 25%;
 	display: inline-block;
 	margin: 20px;
 }
@@ -340,12 +340,13 @@ span{
 		left: 67%;
 	}
 	.column {
-		width: 90%;
+		min-width: 90%;
 	}
 }
 
-@media only screen and (max-width: 779px) and (min-width: 601px) {
+@media only screen and (max-width: 1200px) and (min-width: 601px) {
 	.column {
-		widdth: 50%;
+		min-width: 50%;
+    height: auto;
 	}
 }

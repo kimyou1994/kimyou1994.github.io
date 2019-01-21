@@ -55,7 +55,7 @@ $(window).scroll(function(event){
   {
     action: 'type',
     strings: ["Skills^400"],
-    output: '<span class="blue">Java, C++, Objective-C, HTML, CSS, Javascript(ember.js, vue.js), Unity(C#), </span><br>&nbsp;',
+    output: '<span class="blue">Java, C++, Objective-C, HTML, CSS, Javascript(ember.js), Unity(C#), </span><br>&nbsp;',
     postDelay: 1000
   },
   {
