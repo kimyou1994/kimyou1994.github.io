@@ -6,6 +6,7 @@
 		<meta name="keywords" content="Young Jin Kim">
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link href="main.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:300,100' rel='stylesheet' type='text/css'>
@@ -261,69 +262,74 @@
 				<br>
 				</span>
 			</div>
-			<div id="project">
+			<div id="project" class="w3-container">
 				<h1>Previous Projects</h1>
-				<div id="wrapper">
-					<div class="column">
-						<div class="front" style="background-image:url(images/pullin_dashboard.png)"></div>
-						<p class="back">
-							This project was my senior project which uses Python Qt to design UI.
-							This is desktop application that helps the stakeholders to keep track of their trucking information. 
-							Will not post github link since this is owned by our stakeholder.
-							<br><span class="skill">Python</span><span class="skill">Qt</span>
-						</p>
+				<div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+					<div class="w3-third w3-margin-bottom">
+						<img src="images/Yelp-Search.png" alt="Yelp Search" style="width:100%; display: block; 
+						 margin-left: auto; margin-right: auto;" class="w3-hover-opacity">
+						<div class="w3-container w3-white" style="padding-bottom: 5px; font-size: 15px">
+							<p><b>Business Search Web Application</b></p>
+							<p class="w3-opacity">Jan 2018</p>
+							<p>This web application is to display the business informations using user's searched term. I have made two different web application with similar funtionalities. The purpose of making two similar web application is to know the difference of traditional web application and ember.js framework. As for traditional web application, I retrieved the data using Yelp api and allow it to dipslay on the website and implemented login system to use sql data to retrieve their favorite business. For traditonal web application, I used php as backend and mysql to store the data. As for ember.js, I hard copied the data but used various add-ons or CRUD operations to understand how ember js works. <br>
+							<span class="skill">Ember.js</span><span class="skill">HTML, CSS, Javascript</span><span class="skill">PHP</span><span class="skill">MYSQL</span></p>
+						</div>
 					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/pullin_mobile.png)"></div>
-						<p class="back">
-							This project was also my senior project which uses react native to create a simple mobile application.
-							It uses PHP SQL queries to update the database server through AWS RDS. I also used AWS Cognito to implement user authentication.This is mobile application allows the workers of our stakeholder to keep track of their private information. It allow drivers to have the record of their work and manage their work. Will not post github link since this is owned by our stakeholder.
-							<br><span class="skill">React Native</span><span class="skill">PHP</span><span class="skill">AWS RDS</span>
-						</p>
+					<div class="w3-third w3-margin-bottom">
+						<img src="images/pullin_mobile.png" alt="Pullin Mobile" style="width:100%; display: block; 
+						 margin-left: auto; margin-right: auto;" class="w3-hover-opacity">
+						<div class="w3-container w3-white" style="padding-bottom: 5px; font-size: 15px">
+							<p><b>Pullin Freight Mobile</b></p>
+							<p class="w3-opacity">May 2019</p>
+							<p>This project was also my senior project which uses react native to create a simple mobile application.
+							It uses PHP SQL queries to update the database server through AWS RDS. I also used AWS Cognito to implement user authentication.This is mobile application allows the workers of our stakeholder to keep track of their private information. 
+							<br><span class="skill">React Native</span><span class="skill">PHP</span><span class="skill">RDS/Cognito</span></p>
+						</div>
 					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/shootAndLoot.png)"></div>
-						<p class="back">
-							This is my Principles of Software Development Final project. We created a standalone game using java. We used libgdx library as our main program. It has a shop GUI which you can upgrade user ship's attack, health, and color. When the user ship is within a certain range, it will shoot the laser. Same goes to the enemy ship and ally ship. <br>
-							<span class="skill">Java</span><span class="skill">Libgdx</span><span class="skill">Git</span><a href="https://github.com/kimyou1994/CSCI201_Final" target= "_blank"><img class="github" src="images/GitHub.png"></a>
-						</p>
-					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/Yelp-Search.png)"></div>
-						<p style="font-size: 12px"class="back">
-							This web application is to display the business informations using user's searched term. I have made two different web application with similar funtionalities. The purpose of making two similar web application is to know the difference of traditional web application and ember.js framework. As for traditional web application, I retrieved the data using Yelp api and allow it to dipslay on the website and implemented login system to use sql data to retrieve their favorite business. For traditonal web application, I used php as backend and mysql to store the data. As for ember.js, I hard copied the data but used various add-ons or CRUD operations to understand how ember js works. <br>
-							<span class="skill">Ember.js</span><span class="skill">HTML, CSS, Javascript</span><span class="skill">PHP</span><span class="skill">MYSQL</span><a href="https://github.com/kimyou1994/itp404-final-project" target= "_blank"><img class="github" src="images/GitHub.png"></a>
-						</p>
-					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/USCourse.png)"></div>
-						<p class="back">
-							This is my IOS Mobile Development final project. This shows all information about USC courses by semesters. It is sorted by department and would also have a feature to get a notification when there is an open space for desired course. The notification is sent by email and would only trigger once. <br>
-							<span class="skill">Objective-C</span><span class="skill">IOS</span><span class="skill">Xcode</span><a href="https://github.com/kimyou1994/USCourse-IOS-Project-" target= "_blank"><img class="github" src="images/GitHub.png"></a>
-						</p>
-					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/NMT.png)"></div>
-						<p class="back">
-							This is my game prototype final project. With group of 5 people, we have created a simple 2d platform game that has multiple levels using its time stamp. To clear the stage, player need to solve a way to use its clone to activate game objects to reach to the final door. Here is a clip for demonstration https://www.youtube.com/watch?v=rqnUjmQi7Ow&feature=youtu.be. <br>
-							<span class="skill">Objective-C</span><span class="skill">Unity</span>
-						</p>
-					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/OnlineRetail.png)"></div>
-						<p class="back">
-							This project was for C++ data structure class where I used Qt to create GUI. Basically, it uses that database to search for the products and allow users to write a review for any product. User can use cart functionality where it can store any product that they want to buy just like any other online retail websites.<br><span class="skill">C++</span><span class="skill">Qt</span><a href="https://github.com/kimyou1994/Online-Retail-Project" target= "_blank"><img class="github" src="images/GitHub.png"></a>
-						</p>
-					</div>
-					<div class="column">
-						<div class="front" style="background-image:url(images/2D_Platform.png)"></div>
-						<p class="back">
-							This is my personnal game project using Unity. In order to contribute to a game project in Game Prototyping class, I followed tutorial to build this 2D-Platform. Implemented simple scene setup, level generation, animations, and character controller. <br>
-							<span class="skill">Unity</span><span class="skill">C#</span><a href="https://github.com/kimyou1994/2D_Platfrom" target= "_blank"><img class="github" src="images/GitHub.png"></a>
-						</p>
+					<div class="w3-third w3-margin-bottom">
+						<img src="images/shootAndLoot.png" alt="Shoots and Looters" style="width:100%; display: block; 
+						 margin-left: auto; margin-right: auto;" class="w3-hover-opacity">
+						<div class="w3-container w3-white" style="padding-bottom: 5px; font-size: 15px">
+							<p><b>Shoots and Looters</b></p>
+							<p class="w3-opacity">Dec 2017</p>
+							<p>This is my Principles of Software Development Final project. We created a standalone game using java. We used libgdx library as our main program. It has a shop GUI which you can upgrade user ship's attack, health, and color. When the user ship is within a certain range, it will shoot the laser. Same goes to the enemy ship and ally ship. <br>
+							<span class="skill">Java</span><span class="skill">Libgdx</span><span class="skill">Git</span></p>
+						</div>
 					</div>
 				</div>
-			
+				<div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+					<div class="w3-third w3-margin-bottom">
+						<img src="images/pullin_dashboard.png" alt="Pullin Dashboard" style="width:100%; display: block; 
+						 margin-left: auto; margin-right: auto;" class="w3-hover-opacity">
+						<div class="w3-container w3-white" style="padding-bottom: 5px; font-size: 15px">
+							<p><b>Pullin Freight Dashboard</b></p>
+							<p class="w3-opacity">May 2019</p>
+							<p>This project was my senior project which uses Python Qt to design UI.
+							This is desktop application that helps the stakeholders to keep track of their trucking information. 
+							Will not post github link since this is owned by our stakeholder.<br><span class="skill">Python</span><span class="skill">Qt</span><span class="skill">MySQL</span></p>
+						</div>
+					</div>
+					<div class="w3-third w3-margin-bottom">
+						<img src="images/USCourse.png" alt="USCourse" style="width:100%; display: block; 
+						 margin-left: auto; margin-right: auto;" class="w3-hover-opacity">
+						<div class="w3-container w3-white" style="padding-bottom: 5px; font-size: 15px">
+							<p><b>USCourse</b></p>
+							<p class="w3-opacity">Dec 2017</p>
+							<p>This is my IOS Mobile Development final project. This shows all information about USC courses by semesters. It is sorted by department and would also have a feature to get a notification when there is an open space for desired course. The notification is sent by email and would only trigger once. <br>
+							<span class="skill">Objective-C</span><span class="skill">IOS</span><span class="skill">Xcode</span</p>
+						</div>
+					</div>
+					<div class="w3-third w3-margin-bottom">
+						<img src="images/NMT.png" alt="Need More Time" style="width:100%; display: block; 
+						 margin-left: auto; margin-right: auto;" class="w3-hover-opacity">
+						<div class="w3-container w3-white" style="padding-bottom: 5px; font-size: 15px">
+							<p><b>Need More Time</b></p>
+							<p class="w3-opacity">Dec 2018</p>
+							<p>This is my game prototype final project. With group of 5 people, we have created a simple 2d platform game that has multiple levels using its time stamp. To clear the stage, player need to solve a way to use its clone to activate game objects to reach to the final door. <br>
+							<span class="skill">Objective-C</span><span class="skill">Unity</span></p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<footer>
