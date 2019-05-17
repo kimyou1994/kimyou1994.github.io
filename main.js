@@ -30,7 +30,7 @@ $(window).scroll(function(event){
   },
   { 
     action: 'type',
-    strings: ["Current Education"],
+    strings: ["Education"],
     output: '<span class="blue">University of Southern California</span><br>&nbsp;',
     postDelay: 1000
   },
@@ -42,7 +42,7 @@ $(window).scroll(function(event){
   },
   {
     action: 'type',
-    strings: ["Expected Graduation"],
+    strings: ["Graduated"],
     output: '<span class="blue">May 2019</span><br>&nbsp;',
     postDelay: 1000
   },
@@ -55,19 +55,19 @@ $(window).scroll(function(event){
   {
     action: 'type',
     strings: ["Skills^400"],
-    output: '<span class="blue">Java, C++, Objective-C, HTML, CSS, Javascript(ember.js), Unity(C#), PHP(laravel), Node.js, Python</span><br>&nbsp;',
+    output: '<span class="blue">Java, C++, Objective-C, HTML, CSS, Javascript(ember.js), Relational Database(MySQL), Unity(C#), PHP(laravel), Node.js, Python, AWS(EC2, RDS,Cognito)</span><br>&nbsp;',
     postDelay: 1000
-  },
-  {
-    action: 'type',
-    strings: ['Computer Science Courses'],
-    output: $('.run-courses').html()
   },
   {
     action: 'type',
     strings: ['Interests'],
     output: '<span class="blue">Full-Stack, Mobile Application, Game Development, Software Engineer</span><br>&nbsp;',
     postDelay: 1000
+  },
+  {
+    action: 'type',
+    strings: ['Computer Science Courses'],
+    output: $('.run-courses').html()
   },
   { 
     action: 'type',
